@@ -32,18 +32,18 @@ img {
 h1 {
     margin-top: 60px;
     font-size: 35px;
-    color: rgb(173, 55, 111);
+    color: #E53170;
 }
 
 a {
-    color: cyan;
+    color: #0F74CF;
 }
 
 .col {
     width: calc((100% - 40px) / 3);
     margin-right: 20px;
     margin-bottom: 35px;
-    background-color: black;
+    background-color: #0F0E17;
     color: white;
 }
 
@@ -64,7 +64,22 @@ a {
 }
 
 footer {
-    background-color: grey;
+    background-color: #222222;
+    padding: 30px;
+    padding-bottom: 90px;
+}
+
+.container-footer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #C3BEB5;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 7px 11px 38px 8px rgba(0,0,0,0.34);
+    -moz-box-shadow: 7px 11px 38px 8px rgba(0,0,0,0.34);
+    box-shadow: 7px 11px 38px 8px rgba(0,0,0,0.34);
 }
 
 
